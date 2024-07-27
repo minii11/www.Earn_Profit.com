@@ -9,17 +9,23 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header, footer {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px 0;
+            width: 100%;
+            box-sizing: border-box;
         }
         header nav {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
         }
         header nav a {
             color: #fff;
@@ -27,6 +33,7 @@
             padding: 10px 20px;
             border: 1px solid #fff;
             border-radius: 5px;
+            box-sizing: border-box;
         }
         header nav a:hover {
             background-color: #fff;
@@ -34,6 +41,11 @@
         }
         .container {
             padding: 20px;
+            flex: 1;
+        }
+        img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -46,11 +58,10 @@
             <a href="people-earnings.html">People Earnings</a>
             <a href="do-transaction.html">Do Transaction</a>
         </nav>
-    </header><div>
-        <img src="./img 0.jpg" alt="">
+    </header>
+    <div>
+        <img src="./img 0.jpg" alt="Investment Image">
     </div>
-    
-
     <main class="container">
         <h2> "Welcome to Invest Wise and Profit Paradise! 🌟 Our platform empowers individuals to make smart investment decisions, unlocking the path to financial prosperity. Whether you're a seasoned investor or just starting out, we provide expert guidance, educational resources, and a supportive community. Join us on this journey toward wealth creation and invite others to share in the profits! 💰🚀"</h2>
     </main>
@@ -59,7 +70,6 @@
     </footer>
 </body>
 </html>
-
 
 
 
