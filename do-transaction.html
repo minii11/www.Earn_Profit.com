@@ -39,9 +39,25 @@
             background-color: #fff;
             color: #333;
         }
-        .container {
-            padding: 20px;
+        main {
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -59,9 +75,8 @@
         <h2>Do Transaction</h2>
         <p>Details about how to do transactions will be shown here.</p>
         <div>
-    <img src="./img 4.jpg" alt="">
-</div>
-
+            <img src="./img 4.jpg" alt="Transaction Image">
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 Our Website. All rights reserved.</p>
