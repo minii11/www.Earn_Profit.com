@@ -3,84 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Transaction Page</title>
+    <title>Transaction Instructions</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
+        .instructions {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: red;
         }
-        header, footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        header nav {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        header nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        header nav a:hover {
-            background-color: #fff;
-            color: #333;
-        }
-        main {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        .message-box {
+            border: 1px solid #ccc;
             padding: 20px;
-            box-sizing: border-box;
+            margin-top: 10px;
         }
-        .container {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            box-sizing: border-box;
+        .payment-link, .whatsapp-link {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
         }
-        img {
-            width: 100%;
-            height: auto;
+        .payment-link {
+            font-size: 1.1em;
+            color: red;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Invest Wise & Profit Paradise</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="form.html">Form</a>
-            <a href="plan.html">Plan</a>
-            <a href="people-earnings.html">People Earnings</a>
-        </nav>
-    </header>
-    <main class="container">
-        <h2>Do Transaction</h2>
-        <p>Details about how to do transactions will be shown here.</p>
-        <div>
-            <img src="./img 4.jpg" alt="Transaction Image">
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 Our Website. All rights reserved.</p>
-    </footer>
+    <div class="instructions">Instructions: Read carefully before proceeding with your transaction</div>
+    <div class="message-box">
+        <p><strong>Dear!</strong></p>
+        <p>Join us by making a payment of just 500 PKR and you will be awarded with 1000 PKR. Your balance and progress will be added to this website, which you can check in the section of people joinings. After that, you have to add 5 new members to make a withdrawal and make sure they use your name in the form in the place of (Senior Name) and then pay their amount of joining. All the rewards will be sent directly to your Easypaisa or JazzCash and will be uploaded on the website in real time!</p>
+        <p><strong class="payment-link">Click here on the link for doing investment:</strong></p>
+        <p>
+            <a href="easypaisa://sendmoney?phone=03347112235&amount=500" target="_blank" class="payment-link">
+                Easypaisa Account<br>
+                Number: 03347112235<br>
+                Name: FARHAN ASLAM
+            </a>
+        </p>
+        <p>Then send the screenshot of the transaction on WhatsApp. The link is attached below:</p>
+        <p>
+            <a href="https://chat.whatsapp.com/DEAfRwqmMdzD5vMsaySjfF" target="_blank" class="whatsapp-link">
+                Join our WhatsApp Group
+            </a>
+        </p>
+    </div>
 </body>
 </html>
+
 
