@@ -16,25 +16,21 @@
             text-align: center;
             padding: 10px 0;
             width: 100%;
+            position: fixed; /* Make header and footer fixed */
+            top: 0; /* Stick to the top */
         }
-        header nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
+        header h1 {
+            margin: 0; /* Remove default margin */
+            line-height: 1.5; /* Vertically center the text */
         }
-        header nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border: 1px solid #fff;
-            border-radius: 5px;
-        }
-        header nav a:hover {
-            background-color: #fff;
-            color: #333;
+        footer p {
+            margin: 0; /* Remove default margin */
+            line-height: 1.5; /* Vertically center the text */
         }
         .container {
             padding: 20px;
+            margin-top: 60px; /* Add margin to push content below header */
+            margin-bottom: 60px; /* Add margin to push content above footer */
         }
     </style>
 </head>
@@ -48,6 +44,7 @@
             <a href="do-transaction.html">Do Transaction</a>
         </nav>
     </header>
+    <main class="container">
     <main class="container">
         <h2>Our Plans</h2>
         <p>Details about different plans will be shown here.</p>
@@ -86,7 +83,7 @@
         </p>
     </main>
     <footer>
-        <p>&copy; 2024 Our Website. All rights reserved.</p>
+        <p>&copy; plan 2024 on a secure platform . All rights reserved.</p>
     </footer>
 </body>
 </html>
