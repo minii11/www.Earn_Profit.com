@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction Instructions</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            text-align: center;
+            font-weight: bold;
+        }
         .instructions {
             font-weight: bold;
             font-size: 1.2em;
             color: red;
+            text-align: center;
+            margin: 20px 0;
         }
         .message-box {
             border: 1px solid #ccc;
             padding: 20px;
-            margin-top: 10px;
+            margin: 10px 20px;
+            background-color: #f1f1f1;
         }
         .payment-link, .whatsapp-link {
             color: blue;
@@ -27,13 +41,18 @@
     </style>
 </head>
 <body>
+    <header>
+        Welcome to Our Payment Portal
+    </header>
+
     <div class="instructions">Instructions: Read carefully before proceeding with your transaction</div>
+
     <div class="message-box">
         <p><strong>Dear!</strong></p>
         <p>Join us by making a payment of just 500 PKR and you will be awarded with 1000 PKR. Your balance and progress will be added to this website, which you can check in the section of people joinings. After that, you have to add 5 new members to make a withdrawal and make sure they use your name in the form in the place of (Senior Name) and then pay their amount of joining. All the rewards will be sent directly to your Easypaisa or JazzCash and will be uploaded on the website in real time!</p>
         <p><strong class="payment-link">Click here on the link for doing investment:</strong></p>
         <p>
-            <a href="easypaisa://sendmoney?phone=03347112235&amount=500" target="_blank" class="payment-link">
+            <a href="easypaisa://sendmoney?phone=03347112235&name=FARHAN%20ASLAM&amount=500" class="payment-link">
                 Easypaisa Account<br>
                 Number: 03347112235<br>
                 Name: FARHAN ASLAM
@@ -46,7 +65,10 @@
             </a>
         </p>
     </div>
+
+    <footer>
+        Contact Us: support@example.com | +92 334 7112235
+    </footer>
 </body>
 </html>
-
 
