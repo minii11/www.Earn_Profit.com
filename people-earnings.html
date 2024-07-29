@@ -1,484 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Progress of people who joined</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records List</title>
     <style>
         body {
-            font-size: 18px;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .record-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .record-table th, .record-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .record-table th {
+            background-color: #f2f2f2;
             font-weight: bold;
-            color: black;
-            text-align: center;
-            margin-top: 50px;
-            font-family: serif; /* Change font-family to serif */
         }
-        img {
-            width: 100%; /* Make images cover the mobile screen */
-            display: block; /* Display images in a block to stack them vertically */
-            margin-bottom: 10px; /* Add some space between images */
-        }
-        input[type="text"] {
-            background-color: yellow; /* Set the background color of text input to yellow */
-        }
-        
-        footer {
-            background-color: white;
-            color:white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 200%;
-        }
-      
+        @media screen and (max-width: 600px) {
+            .record-table, .record-table thead, .record-table tbody, .record-table th, .record-table td, .record-table tr {
+                display: block;
+            }
+            .record-table tr {
+                margin-bottom: 15px;
+            }
+            .record-table td {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+            }
+            .record-table td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 10px;
+                font-weight: bold;
+                text-align: left;
+            }
         }
     </style>
 </head>
-
 <body>
-    
-
-    <img src="img 5.jpg" alt="">
     <p>🌟 People who have joined this platform can see their progress here! Make sure to visit the website and check your balance, as we won't be responsible for any record discrepancies later. Best of luck to all newcomers! 🌟</p>
 
 <p>🚀 We are thrilled to introduce more excellent plans for everyone, providing a real platform that helps you grow and achieve what you deserve for the betterment of your future! 🌟</p>
 
-    <img src="img 6.jpg" alt="">
-    <h2> People's Progress & Balance</h2>
+    <h2>Progress of people who joined!</h2>
+    <table class="record-table">
+        <thead>
+            <tr>
+                <th>Serial No</th>
+                <th>Name</th>
+                <th>Payed Amount</th>
+                <th>Number of Joinings</th>
+                <th>Current Balance</th>
+                <th>Rewarded</th>
+                <th>Bonus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="Serial No">1</td>
+                <td data-label="Name">Sara</td>
+                <td data-label="Payed Amount">500 PKR</td>
+                <td data-label="Number of Joinings">5</td>
+                <td data-label="Current Balance">400</td>
+                <td data-label="Rewarded">100</td>
+                <td data-label="Bonus">100</td>
+            </tr>
+            <tr>
+                <td data-label="Serial No">2</td>
+                <td data-label="Name">Zahid</td>
+                <td data-label="Payed Amount">500 PKR</td>
+                <td data-label="Number of Joinings">5</td>
+                <td data-label="Current Balance">300</td>
+                <td data-label="Rewarded">200</td>
+                <td data-label="Bonus">100</td>
+            </tr>
 
- <p>  <strong>Memoona Hussain has joined</strong> </p>
-     <img src="img 7.jpg" alt="">
-    <P>She has completed her 5 joinings so now she can withdraw money 1000 PKR</P>
-   <strong>Your Balance was PKR:1000 which has been sent to your account  </strong>
-     <img src="img 8.jpg" alt="">
-    <strong> Your current balance is PKR:0</strong>
-    <p>Best of Luck for future keep struggling and stay connected :> </p>
-    <strong> Sara has joined </strong>
-    <img src="img 11.jpg" alt="">
-    <p> She has completed her 5 joinins so now she can withdraw money 1000 PKR</p>
-    <strong> Your balance is PKR:1000 which has beend sentbto your account</strong>
-    <img src="img 12.jpg" alt="">
-    <strong> Your current balance is PKR :0 best of luck for future </strong>
-    <p><strong> abdullah has joined </strong></p>
-    <img src="img 9.jpg" alt="">
-    <p> He has completed his 5 joinings so now he can withdraw money 1000 PKR</p>
-    <strong> Your balance was PKR:1000 which has been sent to your account </strong>
-    <img src="img 10.jpg" alt="">
-    <strong> Your current balance is PKR:0</strong>
-    <img src="img 13.jpg" alt="">
-    <img src="img 14.jpg" alt="">
-    <img src="img 15.jpg" alt="">
-    <img src="img 16.jpg" alt="">
-    <img src="img 17.jpg" alt="">
-                                <div>
-                                <img src="./img 18.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 19.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 20.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 21.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 22.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 23.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 24.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 25.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 26.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 27.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 28.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 29.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 30.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 31.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 32.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 33.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 34.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 35.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 36.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 37.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 38.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 39.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 40.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 41.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 42.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 43.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 44.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 45.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 46.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 47.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 48.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 49.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 50.jpg" alt="">
-                            </div>
-                            <!-- Display images from 51 to 100 -->
-                            <div>
-                                <img src="./img 51.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 52.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 53.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 54.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 55.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 56.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 57.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 58.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 59.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 60.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 61.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 62.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 63.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 64.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 65.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 66.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 67.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 68.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 69.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 70.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 71.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 72.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 73.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 74.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 75.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 76.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 77.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 78.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 79.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 80.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 81.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 82.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 83.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 84.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 85.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 86.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 87.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 88.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 89.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 90.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 91.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 92.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 93.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 94.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 95.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 96.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 97.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 98.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 99.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="./img 100.jpg" alt="">
-                            </div>
-
-    <div>
-            <img src="./img 101.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 102.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 103.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 104.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 105.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 106.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 107.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 108.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 109.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 110.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 111.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 112.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 113.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 114.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 115.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 116.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 117.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 118.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 119.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 120.jpg" alt="">
-        </div>
-    <div>
-            <img src="./img 121.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 122.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 123.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 124.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 125.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 126.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 127.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 128.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 129.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 130.jpg" alt="">
-        </div>
-    <div>
-            <img src="./img 131.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 132.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 133.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 134.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 135.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 136.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 137.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 138.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 139.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 140.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 141.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 142.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 143.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 144.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 145.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 146.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 147.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 148.jpg" alt="">
-        </div>
-        <div>
             
-            <img src="./img 149.jpg" alt="">
-        </div>
-        <div>
-            <img src="./img 150.jpg" alt="">
-        </div>
-     <div>
-
-
-    <footer>
-     <a href="https://chat.whatsapp.com/DEAfRwqmMdzD5vMsaySjfF" target="_blank" class="whatsapp-link">
-    </footer>
-
-   
-    </script>
+            <tr>
+                <td data-label="Serial No">3</td>
+                <td data-label="Name">Alishba</td>
+                <td data-label="Payed Amount">500 PKR</td>
+                <td data-label="Number of Joinings">5</td>
+                <td data-label="Current Balance">200</td>
+                <td data-label="Rewarded">100</td>
+                <td data-label="Bonus">100</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
+
